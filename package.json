@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-api-react-hooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack -p"
+  },
+  "repository": "git@github.com:MGL1994/restaurant-api-react-hooks.git",
+  "author": "Michael Laird <michaelgl1994@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.2.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
